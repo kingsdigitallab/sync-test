@@ -1,0 +1,7 @@
+image: ubuntu
+    
+test:
+  stage: test
+  image: ubuntu
+  script:
+    - echo "Hello World"
